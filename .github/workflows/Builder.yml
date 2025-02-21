@@ -1,5 +1,5 @@
 name: EDK2 Build
-
+workflow_dispatch:
 
 on:
 
@@ -10,8 +10,6 @@ on:
   pull_request:
 
     branches: [ "main" ]
-
-  workflow_dispatch:
 
 
 jobs:
